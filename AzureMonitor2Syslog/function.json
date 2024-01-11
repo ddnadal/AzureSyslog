@@ -1,7 +1,7 @@
 {
   "bindings": [
     {
-      "type": "eventHubTrigger",
+      "type": "eventGridTrigger",
       "name": "myEventHubMessage",
       "connection": "logging01_RootManageSharedAccessKey_EVENTHUB",
       "eventHubName": "eh-AzureMonitor2Syslog",
